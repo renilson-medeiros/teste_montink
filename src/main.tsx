@@ -5,7 +5,7 @@ import "./index.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <Header />
     <App />
